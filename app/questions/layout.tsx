@@ -5,7 +5,7 @@ import type { PropsWithChildren } from 'react';
 export default function Layout({ children }: PropsWithChildren) {
   return (
     <>
-      <Link href="/" className="hover:underline">
+      <Link href="/" className="hover:underline" tabIndex={0}>
         <ArrowLeftIcon
           aria-hidden
           width={24}

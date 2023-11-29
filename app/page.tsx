@@ -6,8 +6,8 @@ export default function Home() {
       <h1>Welcome!</h1>
       <p>
         Welcome to the SAIL() front-end interview! These interview questions are
-        designed to assess your skills as a developer in CSS, Web API, and
-        React.JS.
+        designed to assess your skills as a developer in CSS,
+        JavaScript/TypeScript, Web API, and React.JS.
       </p>
       <h2>CSS Questions</h2>
       <div className="flex gap-2">
@@ -18,7 +18,6 @@ export default function Home() {
       <div className="flex gap-2">
         <LinkBox href="/questions/general-hook">General Hooks</LinkBox>
         <LinkBox href="/">Timeout</LinkBox>
-        <LinkBox href="/">Accessibility</LinkBox>
       </div>
     </>
   );
