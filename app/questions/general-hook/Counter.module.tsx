@@ -1,7 +1,7 @@
-"use client";
+'use client';
 
-import { MinusIcon, PlusIcon } from "@heroicons/react/24/solid";
-import { useState } from "react";
+import { MinusIcon, PlusIcon } from '@heroicons/react/24/solid';
+import { useState } from 'react';
 
 type CounterProps = {
   counterID: 0 | 1;
@@ -11,11 +11,12 @@ export default function Counter({ counterID }: CounterProps) {
   const [count, setCount] = useState(0);
   return (
     <div
-      className={`flex flex-col gap-4 p-8 rounded-md shadow-md w-min ${
-        counterID === 0 ? "bg-cyan-500" : "bg-indigo-500"
+      className={`flex flex-col gap-4 p-8 items-center rounded-md shadow-md ${
+        counterID === 0 ? 'bg-cyan-500' : 'bg-fuchsia-500'
       }`}
     >
-      <span className="text-8xl font-mono">{count}</span>
+      <span className="font-mono">Counter {counterID}</span>
+      <span className="text-6xl font-mono">{count}</span>
       <div className="flex justify-center items-center gap-1 sm:gap-2">
         <button aria-label="Increase count">
           <PlusIcon

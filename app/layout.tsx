@@ -1,10 +1,10 @@
-import type { Metadata } from "next";
-import type { PropsWithChildren } from "react";
-import "./globals.css";
+import type { Metadata } from 'next';
+import type { PropsWithChildren } from 'react';
+import './globals.css';
 
 export const metadata: Metadata = {
-  title: "SAIL() Front-end Interview",
-  description: "A collection of front-end web development interview questions.",
+  title: 'SAIL() Front-end Interview',
+  description: 'A collection of front-end web development interview questions.',
 };
 
 export default function RootLayout({ children }: PropsWithChildren) {

@@ -1,5 +1,5 @@
-import Link from "next/link";
-import { PropsWithChildren } from "react";
+import Link from 'next/link';
+import { PropsWithChildren } from 'react';
 
 type LinkBoxProps = PropsWithChildren<{ href: string }>;
 
