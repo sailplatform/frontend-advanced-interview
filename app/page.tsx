@@ -1,4 +1,4 @@
-import LinkBox from './LinkBox.module';
+import LinkBox from '@/component/LinkBox.module';
 
 export default function Home() {
   return (
