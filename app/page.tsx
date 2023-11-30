@@ -17,7 +17,7 @@ export default function Home() {
       <h2>React.JS Questions</h2>
       <div className="flex gap-2">
         <LinkBox href="/questions/general-hook">General Hooks</LinkBox>
-        <LinkBox href="/">Timeout</LinkBox>
+        <LinkBox href="/questions/timeout">Timeout</LinkBox>
       </div>
     </>
   );
