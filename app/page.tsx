@@ -11,7 +11,7 @@ export default function Home() {
       </p>
       <h2>CSS Questions</h2>
       <div className="flex gap-2">
-        <LinkBox href="/">CSS Box Model</LinkBox>
+        <LinkBox href="/questions/box-model">Box Model</LinkBox>
         <LinkBox href="/">Element Arrangement</LinkBox>
       </div>
       <h2>React.JS Questions</h2>
