@@ -3,7 +3,7 @@ import Question from './Question.module';
 export default function Page() {
   return (
     <>
-      <h1>General Hooks</h1>
+      <h1>React State and Props</h1>
       <p>
         Below there are a counter and a switch button. The switch button toggles
         which counter should be displayed on the page. Both counters should be

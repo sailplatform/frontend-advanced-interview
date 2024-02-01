@@ -1,23 +1,36 @@
-import LinkBox from '@/component/LinkBox.module';
+import Link from 'next/link';
+
+const QUESTIONS = [
+  { displayName: 'CSS Transition', link: '/css-transition' },
+  { displayName: 'React State and Props', link: '/react-state-and-props' },
+];
 
 export default function Home() {
   return (
     <>
-      <h1>Welcome!</h1>
+      <h1>Front-end Development Interview</h1>
       <p>
         Welcome to the SAIL() front-end interview! These interview questions are
-        designed to assess your skills as a developer in CSS,
-        JavaScript/TypeScript, Web API, and React.JS.
+        designed to assess your skills as a front-end web developer in CSS and
+        React.JS written in TypeScript
       </p>
-      <h2>CSS Questions</h2>
+      <p>
+        For the following two questions, you may query any resources online or
+        check your own notes and code. We also provided some hints that may help
+        you. You may also rely on your integrated development environment (IDE)
+        provided code autocomplete feature. You are NOT, however, allowed to use
+        tools based on artificial intelligence (AI), like GitHub Copilot.
+      </p>
       <div className="flex gap-2">
-        <LinkBox href="/questions/box-model">Box Model</LinkBox>
-        <LinkBox href="/">Element Arrangement</LinkBox>
-      </div>
-      <h2>React.JS Questions</h2>
-      <div className="flex gap-2">
-        <LinkBox href="/questions/general-hook">General Hooks</LinkBox>
-        <LinkBox href="/questions/timeout">Timeout</LinkBox>
+        {QUESTIONS.map(({ displayName, link }) => (
+          <Link
+            key={displayName}
+            href={link}
+            className="px-6 py-2 bg-white shadow-md rounded-full active:shadow-inner"
+          >
+            {displayName}
+          </Link>
+        ))}
       </div>
     </>
   );

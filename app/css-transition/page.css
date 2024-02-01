@@ -1,0 +1,28 @@
+div.question-region {
+  background-color: white;
+  border-radius: 12px;
+  border-width: 2px;
+  border-color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 16px;
+
+  @media (min-width: 640px) {
+    padding: 32px;
+  }
+}
+
+ul.question-requirements {
+  list-style-type: decimal;
+  list-style-position: outside;
+}
+
+button.question-target {
+  background-color: lightgray;
+  padding: 12px 16px;
+
+  border-radius: 100px;
+}

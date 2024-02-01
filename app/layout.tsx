@@ -4,14 +4,15 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'SAIL() Front-end Interview',
-  description: 'A collection of front-end web development interview questions.',
+  description:
+    'A collection of advanced front-end web development interview questions, curated by SAIL() platform.',
 };
 
 export default function RootLayout({ children }: PropsWithChildren) {
   return (
     <html lang="en">
       <body className="bg-gradient-to-tr from-blue-50 from-50% via-70% via-sky-100 to-indigo-50 w-screen h-screen">
-        <main className="mx-auto container prose-sm sm:prose-lg px-8 sm:px-16 py-8 sm:py-16 overflow-y-scroll h-full">
+        <main className="mx-auto container max-w-screen-lg prose-sm sm:prose-lg px-8 sm:px-16 py-8 sm:py-16 overflow-y-scroll h-full">
           {children}
         </main>
       </body>
