@@ -15,7 +15,7 @@ div.question-region {
   }
 }
 
-ul.question-requirements {
+ol.question-requirements {
   list-style-type: decimal;
   list-style-position: outside;
 }

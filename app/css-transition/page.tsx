@@ -13,7 +13,7 @@ export default function Page() {
         pointer and being focused by the user agent. Specifically, the button
         should...
       </p>
-      <ul className="question-requirements">
+      <ol className="question-requirements">
         <li>
           ...
           <strong>
@@ -48,19 +48,19 @@ export default function Page() {
           </strong>
           .
         </li>
-      </ul>
+      </ol>
       <p>
         Although this interview question set is styled using TailwindCSS, you
         are only allowed to write plain CSS code in{' '}
         <code>app/css-transition/page.css</code> imported to{' '}
         <code>app/css-transition/page.tsx</code>. For the sake of fairness, new
-        styles added to the page is written in plain CSS.
+        styles added to the page is also written in plain CSS.
       </p>
       <p>You may ...</p>
-      <ul className="question-requirements">
+      <ol className="question-requirements">
         <li>... find CSS transition attributes helpful.</li>
         <li>... need to apply certain pseudo-classes and write nested-CSS.</li>
-      </ul>
+      </ol>
       <div className="question-region">
         <button className="question-target">Button</button>
       </div>

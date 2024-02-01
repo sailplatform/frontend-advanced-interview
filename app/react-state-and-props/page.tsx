@@ -10,11 +10,13 @@ export default function Page() {
         independent and can preserve its counter state. All components are
         displayed, but certain functionalities are not implemented.
       </p>
-      <p>In this task, you are required to:</p>
+      <p>In this task, you are required to...</p>
       <ol className="list-decimal">
-        <li>Implement the switch button to switch the displaying counter.</li>
         <li>
-          Implement the counter components&apos; increment and decrement
+          ...implement the switch button to switch the displaying counter.
+        </li>
+        <li>
+          ...implement the counter components&apos; increment and decrement
           buttons.
         </li>
       </ol>
