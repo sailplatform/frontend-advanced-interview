@@ -9,7 +9,7 @@ export default function Page() {
         which counter, counter <code>0</code> or <code>1</code> should be
         displayed on the page, and a counter displays the current count and two
         buttons decrease or increase the count. Both counters should be
-        independent and can preserve its counter state, and only one counter
+        independent and able to preserve its counter state, and only one counter
         should be displayed at a time. Certain functionalities are not
         implemented.
       </p>
