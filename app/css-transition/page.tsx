@@ -50,6 +50,13 @@ export default function Page() {
         </li>
       </ol>
       <p>
+        A visual demonstraction of what you will implement is presented below in
+        a video.
+      </p>
+      <video controls muted preload="auto">
+        <source src="/css-transition.mp4" type="video/mp4" />
+      </video>
+      <p>
         Although this interview question set is styled using TailwindCSS, you
         are only allowed to write plain CSS code in{' '}
         <code>app/css-transition/page.css</code> imported to{' '}
