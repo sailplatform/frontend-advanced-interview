@@ -27,7 +27,7 @@ export default function Page() {
         A visual demonstraction of what you will implement is presented below in
         a video.
       </p>
-      <video controls muted preload="auto">
+      <video controls muted preload="auto" width={450} className="mx-auto">
         <source src="./react-state-and-props.mp4" type="video/mp4" />
       </video>
       <p>

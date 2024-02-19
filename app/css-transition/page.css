@@ -20,6 +20,11 @@ ol.question-requirements {
   list-style-position: outside;
 }
 
+video.question-demonstration {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 button.question-target {
   background-color: lightgray;
   padding: 12px 16px;

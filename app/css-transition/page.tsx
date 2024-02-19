@@ -53,7 +53,13 @@ export default function Page() {
         A visual demonstraction of what you will implement is presented below in
         a video.
       </p>
-      <video controls muted preload="auto">
+      <video
+        controls
+        muted
+        preload="auto"
+        width={546}
+        className="question-demonstration"
+      >
         <source src="/css-transition.mp4" type="video/mp4" />
       </video>
       <p>
