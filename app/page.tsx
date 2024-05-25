@@ -1,6 +1,7 @@
 import Link from 'next/link';
 
 const QUESTIONS = [
+  { displayName: 'CSS Box Model', link: '/css-box' },
   { displayName: 'CSS Transition', link: '/css-transition' },
   { displayName: 'React State and Props', link: '/react-state-and-props' },
 ];
@@ -11,23 +12,19 @@ export default function Home() {
       <h1>Front-end Development Interview</h1>
       <p>
         Welcome to the SAIL() front-end interview! These interview questions are
-        designed to assess your skills as a front-end web developer in CSS and
-        React.JS written in TypeScript.
+        designed to assess your skills as a front-end web developer in CSS,
+        TypeScript, and React.
       </p>
       <p>
-        For the following two questions, you may query any resources online or
-        check your own notes and code. We also provided some hints that may help
-        you. You may also rely on your integrated development environment (IDE)
-        provided code autocomplete feature. You are NOT, however, allowed to use
-        tools based on artificial intelligence (AI), like GitHub Copilot.
+        For those following questions, you may query any resources online and
+        check your own notes and code. You may also rely on your IDE&apos;s auto
+        completion. However, you are NOT allowed to use AI-based tools.
       </p>
       <p>
-        You are also welcome to ask questions or ask for hints when you have any
-        concern, and we expect you to speak out loud when you are thinking.
-        Answering questions correctly might not be the most important aspect of
-        this interview, as you are not actually expected to finish all the
-        following questions, but research, reading, and communication skills do
-        matter.
+        You are also welcome to ask questions, and we expect you to speak out
+        when you are thinking. Completing those following questions correctly
+        might not be the most important, as we do not expect that. However, your
+        research, reading, and communication skills matter more.
       </p>
       <div className="flex gap-2">
         {QUESTIONS.map(({ displayName, link }) => (
