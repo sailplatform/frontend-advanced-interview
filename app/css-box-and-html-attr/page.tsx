@@ -1,3 +1,4 @@
+'use client';
 import './page.css';
 
 export default function Page() {
@@ -28,6 +29,10 @@ export default function Page() {
           the screen width is less than <code>640px</code>
         </li>
       </ol>
+      <p>
+        The button should also respond to click events by showing an alert with
+        a random text of your choice.
+      </p>
       <p>
         Although this interview question set is styled using TailwindCSS, you
         are only allowed to write plain CSS code in{' '}
