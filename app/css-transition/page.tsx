@@ -66,8 +66,7 @@ export default function Page() {
         Although this interview question set is styled using TailwindCSS, you
         are only allowed to write plain CSS code in{' '}
         <code>app/css-transition/page.css</code> imported to{' '}
-        <code>app/css-transition/page.tsx</code>. For the sake of fairness, new
-        styles added to the page is also written in plain CSS.
+        <code>app/css-transition/page.tsx</code>.
       </p>
       <p>You may ...</p>
       <ol className="question-requirements">
