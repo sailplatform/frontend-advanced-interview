@@ -16,15 +16,15 @@ export default function Home() {
         TypeScript, and React.
       </p>
       <p>
-        For those following questions, you may query any resources online and
-        check your own notes and code. You may also rely on your IDE&apos;s auto
-        completion. However, you are NOT allowed to use AI-based tools.
+        You may query any resources online and from your own. You may also rely
+        on your IDE&apos;s auto completion. However, you are NOT allowed to use
+        AI-based tools.
       </p>
       <p>
         You are also welcome to ask questions, and we expect you to speak out
-        when you are thinking. Completing those following questions correctly
-        might not be the most important, as we do not expect that. However, your
-        research, reading, and communication skills matter more.
+        when you think. Completing those following questions might not be the
+        most important, as we do not expect that. However, your research,
+        reading, and communication skills matter more.
       </p>
       <div className="flex gap-2">
         {QUESTIONS.map(({ displayName, link }) => (
