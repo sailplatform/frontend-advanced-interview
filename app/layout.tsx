@@ -12,9 +12,11 @@ export default function RootLayout({ children }: PropsWithChildren) {
   return (
     <html lang="en">
       <body className="bg-gradient-to-tr from-sky-50 from-50% via-70% via-sky-100 to-sky-50 w-screen h-screen">
-        <main className="mx-auto container max-w-screen-lg prose-sm sm:prose-lg px-12 sm:px-24 py-8 sm:py-16 overflow-y-scroll h-full">
-          {children}
-        </main>
+        <div className="overflow-y-scroll size-full">
+          <main className="mx-auto container max-w-screen-lg prose-sm sm:prose-lg px-12 sm:px-24 py-8 sm:py-16">
+            {children}
+          </main>
+        </div>
       </body>
     </html>
   );
