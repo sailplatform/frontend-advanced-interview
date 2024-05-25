@@ -28,12 +28,10 @@ export default function Home() {
       </p>
       <div className="flex gap-2">
         {QUESTIONS.map(({ displayName, link }) => (
-          <Link
-            key={displayName}
-            href={link}
-            className="px-6 py-2 bg-white shadow-md rounded-full active:shadow-inner"
-          >
-            {displayName}
+          <Link href={link} key={displayName}>
+            <button className="rounded-full bg-white px-4 py-3 font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
+              {displayName}
+            </button>
           </Link>
         ))}
       </div>
