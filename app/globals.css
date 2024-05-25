@@ -1,9 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind variants;
 
 @layer base {
   code {
-    @apply px-1.5 bg-gray-300 rounded-md;
+    @apply px-1.5 bg-gray-300 rounded-md leading-4;
+  }
+  ol {
+    @apply list-outside list-decimal;
   }
 }

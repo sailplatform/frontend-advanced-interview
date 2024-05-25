@@ -1,7 +1,10 @@
 import Link from 'next/link';
 
 const QUESTIONS = [
-  { displayName: 'CSS Box Model', link: '/css-box' },
+  {
+    displayName: 'CSS Box Model and HTML Attributes in React',
+    link: '/css-box-and-html-attr',
+  },
   { displayName: 'CSS Transition', link: '/css-transition' },
   { displayName: 'React State and Props', link: '/react-state-and-props' },
 ];
