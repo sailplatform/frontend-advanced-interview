@@ -19,14 +19,15 @@ export default function Page() {
         </li>
         <li>
           X-axis padding of <code>12px</code> and y-axis padding of{' '}
-          <code>8px</code> when the screen width is more than <code>640px</code>
+          <code>8px</code> when the screen width is more than <code>640px</code>{' '}
           and x-axis padding of <code>10px</code> and y-axis padding of{' '}
           <code>6px</code> when the screen width is less than <code>640px</code>
+          .
         </li>
         <li>
           Rounded corners in all directinos with <code>8px</code> when the
           screen width is more than <code>640px</code> and <code>6px</code> when
-          the screen width is less than <code>640px</code>
+          the screen width is less than <code>640px</code>.
         </li>
       </ol>
       <p>
@@ -36,8 +37,8 @@ export default function Page() {
       <p>
         Although this interview question set is styled using TailwindCSS, you
         are only allowed to write plain CSS code in{' '}
-        <code>app/css-box/page.css</code> imported to{' '}
-        <code>app/css-box/page.tsx</code>.
+        <code>app/css-box-and-html-attr/page.css</code> imported to{' '}
+        <code>app/css-box-and-html-attr/page.tsx</code>.
       </p>
       <div className="question-region">
         <button className="question-target">Style me!</button>
