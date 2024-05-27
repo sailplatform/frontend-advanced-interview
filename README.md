@@ -10,4 +10,3 @@ Be sure you have Node.JS `^18.17` installed on your machine.
 To start a development server to run the front-end application,
 firstly install dependencies using your prefered Node.JS package managers.
 Then, run the `dev` script specified in `package.json`.
-You should immediately see two links navigates to two questions.
