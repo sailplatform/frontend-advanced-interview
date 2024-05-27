@@ -1,0 +1,16 @@
+.region {
+  background-color: white;
+  border-radius: 12px;
+  border-width: 2px;
+  border-color: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 32px;
+}
+
+.target {
+  /* TODO: write your code here in the `button.question-target` CSS selector. */
+}

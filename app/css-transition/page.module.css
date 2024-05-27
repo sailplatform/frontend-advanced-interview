@@ -1,4 +1,4 @@
-div.question-region {
+.region {
   background-color: white;
   border-radius: 12px;
   border-width: 2px;
@@ -8,9 +8,23 @@ div.question-region {
   justify-content: center;
   align-items: center;
 
-  padding: 32px;
+  padding: 16px;
+
+  @media (min-width: 640px) {
+    padding: 32px;
+  }
 }
 
-button.question-target {
+.demo {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.target {
+  background-color: lightgray;
+  padding: 12px 16px;
+
+  border-radius: 100px;
+
   /* TODO: write your code here in the `button.question-target` CSS selector. */
 }

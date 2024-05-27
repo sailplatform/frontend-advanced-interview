@@ -1,5 +1,5 @@
 'use client';
-import './page.css';
+import cls from './page.module.css';
 
 export default function Page() {
   return (
@@ -40,8 +40,8 @@ export default function Page() {
         <code>app/css-box-and-html-attr/page.css</code> and TypeScript in{' '}
         <code>app/css-box-and-html-attr/page.tsx</code>.
       </p>
-      <div className="question-region">
-        <button className="question-target">Style me!</button>
+      <div className={cls.region}>
+        <button className={cls.target}>Style me!</button>
       </div>
     </>
   );

@@ -1,4 +1,4 @@
-import './page.css';
+import cls from './page.module.css';
 
 export default function Page() {
   return (
@@ -13,7 +13,7 @@ export default function Page() {
         pointer and being focused by the user agent. Specifically, the button
         should...
       </p>
-      <ol className="question-requirements">
+      <ol>
         <li>
           ...
           <strong>
@@ -53,13 +53,7 @@ export default function Page() {
         A visual demonstraction of what you will implement is presented below in
         a video.
       </p>
-      <video
-        controls
-        muted
-        preload="auto"
-        width={546}
-        className="question-demonstration"
-      >
+      <video controls muted preload="auto" width={546} className={cls.demo}>
         <source src="/css-transition.mp4" type="video/mp4" />
       </video>
       <p>
@@ -69,12 +63,12 @@ export default function Page() {
         <code>app/css-transition/page.tsx</code>.
       </p>
       <p>You may ...</p>
-      <ol className="question-requirements">
+      <ol>
         <li>... find CSS transition attributes helpful.</li>
         <li>... need to apply certain pseudo-classes and write nested-CSS.</li>
       </ol>
-      <div className="question-region">
-        <button className="question-target">Button</button>
+      <div className={cls.region}>
+        <button className={cls.target}>Button</button>
       </div>
     </>
   );
