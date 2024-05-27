@@ -36,8 +36,8 @@ export default function Page() {
       </p>
       <p>
         Although this interview question set is styled using TailwindCSS, you
-        are only allowed to write plain CSS code in{' '}
-        <code>app/css-box-and-html-attr/page.css</code> imported to{' '}
+        are only allowed to write plain CSS in{' '}
+        <code>app/css-box-and-html-attr/page.css</code> and TypeScript in{' '}
         <code>app/css-box-and-html-attr/page.tsx</code>.
       </p>
       <div className="question-region">
