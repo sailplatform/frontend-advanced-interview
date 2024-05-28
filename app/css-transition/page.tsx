@@ -59,7 +59,7 @@ export default function Page() {
       <p>
         Although this interview question set is styled using TailwindCSS, you
         are only allowed to write plain CSS code in{' '}
-        <code>app/css-transition/page.css</code> imported to{' '}
+        <code>app/css-transition/page.module.css</code> imported to{' '}
         <code>app/css-transition/page.tsx</code>.
       </p>
       <p>You may ...</p>
