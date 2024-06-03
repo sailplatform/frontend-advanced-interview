@@ -11,7 +11,7 @@ export default function Page() {
       </p>
       <p>
         You are required to style the button below with the class{' '}
-        <code>question-target</code>. The button should have following styles:
+        <code>target</code>. The button should have following styles:
       </p>
       <ol>
         <li>
