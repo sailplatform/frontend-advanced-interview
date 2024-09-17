@@ -4,9 +4,8 @@ Welcome to the SAIL() front-end interview!
 These interview questions are designed to assess your skills as a front-end web developer
 in CSS3 and React 18 written in TypeScript.
 
-This project is a Next.js project written in Next.js `14.2.3`.
-Be sure you have Node.JS `^18.17` installed on your machine.
+This is a Next.js project in version 14.
 
-To start a development server to run the front-end application,
-firstly install dependencies using your prefered Node.JS package managers.
+To start the development server and enable hot reloading when writing code,
+firstly, install dependencies using your prefered Node.JS package manager.
 Then, run the `dev` script specified in `package.json`.
