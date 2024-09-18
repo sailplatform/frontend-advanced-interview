@@ -62,10 +62,10 @@ export default function Page() {
         <code>app/css-transition/page.module.css</code> imported to{' '}
         <code>app/css-transition/page.tsx</code>.
       </p>
-      <p>You may ...</p>
+      <p>You may...</p>
       <ol>
-        <li>... find CSS transition attributes helpful.</li>
-        <li>... need to apply certain pseudo-classes and write nested-CSS.</li>
+        <li>...find CSS transition attributes helpful.</li>
+        <li>...need to apply certain pseudo-classes and write nested-CSS.</li>
       </ol>
       <div className={cls.region}>
         <button className={cls.target}>Button</button>

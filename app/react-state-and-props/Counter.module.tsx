@@ -5,9 +5,9 @@ import { useState } from 'react';
 
 // TODO: write your code in this file.
 
-type CounterProps = {
+interface CounterProps {
   counterID: 0 | 1;
-};
+}
 
 export default function Counter({ counterID }: CounterProps) {
   const [count, setCount] = useState(0);
@@ -20,20 +20,18 @@ export default function Counter({ counterID }: CounterProps) {
       <span className="font-mono">Counter {counterID}</span>
       <span className="text-6xl font-mono">{count}</span>
       <div className="flex justify-center items-center gap-1 sm:gap-2">
-        <button aria-label="Increase count">
+        <button>
+          <span className="sr-only">{`Increment counter ${counterID}`}</span>
           <PlusIcon
-            aria-label="Increment"
-            className="bg-gray-300 active:bg-gray-400 shadow-sm active:shadow-inner rounded-full p-1"
-            width={24}
-            height={24}
+            aria-hidden
+            className="bg-gray-300 active:bg-gray-400 shadow-sm active:shadow-inner rounded-full p-1 size-6"
           />
         </button>
-        <button aria-label="Decrese count">
+        <button>
+          <span className="sr-only">{`Decrement counter ${counterID}`}</span>
           <MinusIcon
-            aria-label="Decrement"
-            className="bg-gray-300 active:bg-gray-400 shadow-sm active:shadow-inner rounded-full p-1"
-            width={24}
-            height={24}
+            aria-hidden
+            className="bg-gray-300 active:bg-gray-400 shadow-sm active:shadow-inner rounded-full p-1 size-6"
           />
         </button>
       </div>

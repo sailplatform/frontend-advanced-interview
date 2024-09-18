@@ -7,11 +7,11 @@ export default function Page() {
       <h1>CSS Box Model and HTML Attribute in React</h1>
       <p>
         In this task, we are going to assess your familiarity with CSS box model
-        and how to apply HTML attributes in React.
+        and applying HTML element attributes in React.
       </p>
       <p>
-        You are required to style the button below with the class{' '}
-        <code>target</code>. The button should have following styles:
+        You are required to style the button below. The button should have
+        following styles:
       </p>
       <ol>
         <li>
@@ -31,12 +31,12 @@ export default function Page() {
         </li>
       </ol>
       <p>
-        The button should also respond to click events by showing an alert with
-        a random text of your choice.
+        The button should also show an alert with a random text of your choice
+        when being clicked.
       </p>
       <p>
-        Although this interview question set is styled using TailwindCSS, you
-        are only allowed to write plain CSS in{' '}
+        Although this interview question set is mainly styled using TailwindCSS,
+        you are only allowed to write plain CSS in{' '}
         <code>app/css-box-and-html-attr/page.module.css</code> and TypeScript in{' '}
         <code>app/css-box-and-html-attr/page.tsx</code>.
       </p>
