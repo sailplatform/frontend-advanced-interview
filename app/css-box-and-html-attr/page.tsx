@@ -25,7 +25,7 @@ export default function Page() {
           .
         </li>
         <li>
-          Rounded corners in all directinos with <code>8px</code> when the
+          Rounded corners in all directions with <code>8px</code> when the
           screen width is more than <code>640px</code> and <code>6px</code> when
           the screen width is less than <code>640px</code>.
         </li>

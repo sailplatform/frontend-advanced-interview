@@ -50,7 +50,7 @@ export default function Page() {
         </li>
       </ol>
       <p>
-        A visual demonstraction of what you will implement is presented below in
+        A visual demonstration of what you will implement is presented below in
         a video.
       </p>
       <video controls muted preload="auto" width={546} className={cls.demo}>
