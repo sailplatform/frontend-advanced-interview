@@ -24,14 +24,14 @@ export default function Counter({ counterID }: CounterProps) {
           <span className="sr-only">{`Increment counter ${counterID}`}</span>
           <PlusIcon
             aria-hidden
-            className="bg-gray-300 active:bg-gray-400 shadow-sm active:shadow-inner rounded-full p-1 size-6"
+            className="bg-gray-300 active:bg-gray-400 shadow-xs active:shadow-inner rounded-full p-1 size-6"
           />
         </button>
         <button>
           <span className="sr-only">{`Decrement counter ${counterID}`}</span>
           <MinusIcon
             aria-hidden
-            className="bg-gray-300 active:bg-gray-400 shadow-sm active:shadow-inner rounded-full p-1 size-6"
+            className="bg-gray-300 active:bg-gray-400 shadow-xs active:shadow-inner rounded-full p-1 size-6"
           />
         </button>
       </div>
