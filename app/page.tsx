@@ -1,10 +1,6 @@
-import Link from 'next/link';
+import LinkButton from './LinkButton.module';
 
 const QUESTIONS = [
-  {
-    displayName: 'CSS Box Model and HTML Attributes in React',
-    link: '/css-box-and-html-attr',
-  },
   { displayName: 'CSS Transition', link: '/css-transition' },
   { displayName: 'React State and Props', link: '/react-state-and-props' },
 ];
@@ -29,14 +25,28 @@ export default function Home() {
         when you think. We do not expect you to finish all questions. Your
         research, reading, and communication skills are more valued.
       </p>
+      <h2>CSS</h2>
       <div className="flex gap-2">
-        {QUESTIONS.map(({ displayName, link }) => (
-          <Link href={link} key={displayName}>
-            <button className="rounded-full bg-white px-4 py-3 font-semibold text-gray-900 shadow-xs ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
-              {displayName}
-            </button>
-          </Link>
-        ))}
+        <LinkButton link="/css-box-and-html-attr">CSS Box Model</LinkButton>
+        <LinkButton link="/css-transition">CSS Transition</LinkButton>
+      </div>
+      <h2>React and HTML5</h2>
+      <div className="flex gap-2">
+        <LinkButton link="/react-state-and-props">
+          React State and Props (TBD)
+        </LinkButton>
+        <LinkButton link="/react-state-and-props-2">
+          React State and Props 2
+        </LinkButton>
+      </div>
+      <h2>Advanced Topics</h2>
+      <div className="flex gap-2">
+        <LinkButton link="/react-state-and-props">
+          React State and Props (TBD)
+        </LinkButton>
+        <LinkButton link="/react-state-and-props-2">
+          React State and Props 2 (TBD)
+        </LinkButton>
       </div>
     </>
   );

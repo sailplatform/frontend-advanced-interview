@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import type { PropsWithChildren } from 'react';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -8,7 +7,7 @@ export const metadata: Metadata = {
     'A collection of advanced front-end web development interview questions, curated by CMU TEEL Lab.',
 };
 
-export default function RootLayout({ children }: PropsWithChildren) {
+export default function RootLayout({ children }: React.PropsWithChildren) {
   return (
     <html lang="en">
       <body className="bg-linear-to-tr from-sky-50 from-50% via-70% via-sky-100 to-sky-50 w-screen h-screen">
