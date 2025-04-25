@@ -1,10 +1,5 @@
 import LinkButton from './LinkButton.module';
 
-const QUESTIONS = [
-  { displayName: 'CSS Transition', link: '/css-transition' },
-  { displayName: 'React State and Props', link: '/react-state-and-props' },
-];
-
 export default function Home() {
   return (
     <>
