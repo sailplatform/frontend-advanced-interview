@@ -4,9 +4,10 @@
   border-width: 2px;
   border-color: black;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  align-content: center;
+  :is(& > *) {
+    margin-inline: auto;
+  }
 
   padding: 16px;
 
